@@ -28,27 +28,30 @@
 
 /* For -Schleifen als allg. Wiederholungs-Struktur */
 // Inkrement (untere Grenze --> obere Grenze)
-for (let i = 0; i < 10; i++)
-{
-    output(i);
+// for (let i = 0; i < 10; i++)
+// {
+//     output(i);
 
-}
+// }
 // Dekrement (obere Grenze --> untere Grenze)
-for (let i = 10; i > 0; i--)
-{
-    output(i);
+// for (let i = 10; i > 0; i--)
+// {
+//     output(i);
 
-}
+// }
 // Inkrement (var. Schrittweite)
-for (let i = 50; i <= 100; i+=5)
+// for (let i = 50; i <= 100; i+=5)
+// {
+//     output(i);
+// }
+
+/* 02b. For-Schleife für Array-Index (Iteration)*/
+let arr = ["Ich","bin","die","coole","Maxine","Mützerich"];
+for (let i = 0; i < arr.length; i++)
 {
-    output(i);
-
+    output(i); // innerer Index
+    output(arr[i]); //Array-Indes --> Mapping
 }
-
-
-
-
 /**
  *   PRAXIS
  * 
