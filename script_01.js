@@ -148,14 +148,11 @@ function getSentenceArr2(arr)
     {
         // str +="Test"; // Transponierung
         str += arr[i] + GAP; // Transponierung + Mapping       
-        if (i == arr.length-1) {
-
-            str +=arr[i] + PUNCT
-            
+        if (i == arr.length-1) 
+        {
+            str +=arr[i] + PUNCT       
         }
     }
-
-
     return str 
 }
 
